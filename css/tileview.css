@@ -1,0 +1,32 @@
+.dashboard-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-card .card-body {
+    padding: 2rem;
+}
+
+.dashboard-card i {
+    opacity: 0.9;
+}
+
+.dashboard-card:hover i {
+    opacity: 1;
+}
+
+.dashboard-card h3 {
+    color: #333;
+    font-weight: 600;
+}
+
+.dashboard-card p {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,37 @@
+.card {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-header {
+    border-bottom: none;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+.btn-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.invalid-feedback {
+    font-size: 0.875rem;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin: 1rem;
+    }
+}

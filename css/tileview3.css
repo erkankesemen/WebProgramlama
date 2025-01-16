@@ -1,0 +1,33 @@
+.dashboard-tile {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-tile:active {
+    transform: translateY(0);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.fa-3x {
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
